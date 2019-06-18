@@ -1,0 +1,9 @@
+<section class="right-menu">
+    <ul (click)="clickHandler($event)">
+        <li class="disable">Move To...</li>
+        <li value="cr">Currently Reading <span *ngIf="flag==='cr'">&#10003;</span></li>
+        <li value="wr">Want to Read <span *ngIf="flag==='wr'">&#10003;</span></li>
+        <li value="hr">Read <span *ngIf="flag==='hr'">&#10003;</span></li>
+        <li value="none">None<span *ngIf="flag==='none'">&#10003;</span></li>
+    </ul>
+</section>

@@ -1,0 +1,27 @@
+.book-container {
+    height: 240px;
+    display: block;
+    border: 1px solid black;
+}
+
+.img {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    height: 129px;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+.author {
+    opacity: 0.4;
+    font-size: 14px;
+}

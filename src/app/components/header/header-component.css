@@ -1,0 +1,40 @@
+.header {
+    height: 70px;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+}
+
+.header span {
+    position: absolute;
+    top: 3%;
+    font-size: 30px;
+    left: 37%;
+}
+
+.nav-option {
+    width: 50px;
+    float: right;
+    position: absolute;
+    right: 7%;
+    top: 4%;
+}
+
+.nav-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-btn span {
+    top: 26%;
+    font-size: 19px;
+    left: unset;
+    margin: 0 5px;
+}
+
+.home {
+    margin: 0 -14px !important;
+}

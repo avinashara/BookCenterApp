@@ -1,0 +1,8 @@
+<section class="search-container">
+    <section class="search-input">
+        <input class="input-box" (ngModelChange)="changeHandler($event)" [(ngModel)]="searchText" placeholder="Search your books here...">
+    </section>
+    <section class="books">
+        <app-book *ngFor="let book of books" [data]="book"></app-book>
+    </section>
+</section>

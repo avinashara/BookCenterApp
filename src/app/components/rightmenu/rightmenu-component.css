@@ -1,0 +1,26 @@
+.right-menu ul {
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.right-menu li {
+    display: block;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.right-menu li span {
+    width: 25px;
+    display: inline-block;
+    float: right;
+}
+
+.right-menu li:hover {
+    background-color: blue;
+}
+
+.disable {
+    cursor: auto;
+    opacity: 0.5;
+    background: transparent;
+}

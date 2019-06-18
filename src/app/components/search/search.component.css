@@ -1,0 +1,16 @@
+.books {
+    height: 100%;
+}
+
+.search-input {
+    height: 70px;
+}
+
+.input-box {
+    width: 60%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 3px;
+}

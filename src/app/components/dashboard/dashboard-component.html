@@ -1,0 +1,23 @@
+<section class="dashboard">
+    <section class="cr-read">
+        <h2>Currently Reading</h2>
+        <hr />
+        <section class="books">
+            <app-book *ngFor="let book of crBooks" [data]="book"></app-book>
+        </section>
+    </section>
+    <section class="wr-read">
+        <h2>Will Reading</h2>
+        <hr />
+        <section class="books">
+            <app-book *ngFor="let book of wrBooks" [data]="book"></app-book>
+        </section>
+    </section>
+    <section class="hv-read">
+        <h2>Have Read</h2>
+        <hr />
+        <section class="books">
+            <app-book *ngFor="let book of hrBooks" [data]="book"></app-book>
+        </section>
+    </section>
+</section>

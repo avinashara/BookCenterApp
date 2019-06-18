@@ -1,0 +1,7 @@
+<section class="header">
+    <span>Book Center</span>
+    <section class="nav-option">
+        <button class="nav-btn" (click)="navHandler()"><span class="home" *ngIf="navOption==='Home'">&#60;</span>{{navOption}}<span
+                *ngIf="navOption==='Search'">&#62;</span></button>
+    </section>
+</section>
